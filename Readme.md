@@ -1,3 +1,3 @@
 ### Littoral-Docker
 
-Docker container to host an image of paperelectron/littoral
+Docker container for [paperelectron/littoral](https://github.com/PaperElectron/littoral)
