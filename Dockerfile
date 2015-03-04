@@ -28,10 +28,10 @@ ADD littoral.sh /etc/service/littoral/run
 EXPOSE 8080
 
 WORKDIR $LITTORAL_HOME
-ADD https://github.com/PaperElectron/littoral/archive/v0.0.1-alpha.tar.gz $LITTORAL_HOME/littoral.tar.gz
+ADD https://github.com/PaperElectron/littoral/archive/master.tar.gz $LITTORAL_HOME/littoral.tar.gz
 RUN ls -lah $LITTORAL_HOME
 RUN tar xzvf littoral.tar.gz && \
-  mv littoral-0.0.1-alpha app && \
+  mv littoral-master app && \
   cd app && \
   npm install
 
